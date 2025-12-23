@@ -1,0 +1,29 @@
+.ico-toggle-password{
+            height:40px;
+            cursor: pointer;
+        }
+        .input-password{
+            padding: 5px 10px;
+            font-size: 20px;
+            border:none;
+        }
+        .input-password:focus{
+            outline: none;
+        }
+        .input-password-container{
+            border:1px solid black;
+            width:fit-content;
+            display: flex;
+            align-items: center;
+            padding: 5px 20px;
+            border-radius: 50px;
+        }
+        @media screen and (max-width: 768px) {
+            .input-password{
+                font-size: 16px;
+            }
+
+            .ico-toggle-password{
+                height: 30px;
+            }
+        }
